@@ -1,27 +1,35 @@
-# Achados e Perdidos
+# 🔍 Achados e Perdidos
+
 Sistema acadêmico para gerenciamento de objetos perdidos e encontrados.
 
-## Equipe
+---
+
+## 👥 Equipe
 
 - William
 - Enzo
 - Alan
 - Gabriel
 
-## Tecnologias
+---
+
+## 🛠️ Tecnologias
 
 ### Backend
-- Java
-- Spring Boot
-- Maven
+- **Java 21**
+- **Spring Boot** (Spring Data JPA, Spring Web, DevTools)
+- **Lombok**
+- **Maven**
 
-### Banco de dados
-- A definir
+### Banco de Dados
+- **PostgreSQL** (Hospedado via Supabase)
 
 ### Frontend
 - A definir
 
-## Funcionalidades
+---
+
+## 📋 Funcionalidades
 
 - [ ] Cadastro de usuário
 - [ ] Login
@@ -32,27 +40,27 @@ Sistema acadêmico para gerenciamento de objetos perdidos e encontrados.
 - [ ] Visualização de detalhes
 - [ ] Marcar item como recuperado
 
-## Organização
+---
 
-O desenvolvimento do projeto é organizado através do GitHub Projects e Issues.
+## 📌 Organização do Projeto
 
-Cada tarefa deve possuir uma Issue e ser atribuída a um integrante.
+O desenvolvimento é gerenciado através do **GitHub Projects** e **Issues**.  
+Cada tarefa deve possuir uma Issue correspondente e ser atribuída a pelo menos um integrante.
 
-### Fluxo de desenvolvimento
+### Fluxo de Desenvolvimento
+`A fazer` ➔ `Em progresso` ➔ `Em revisão` ➔ `Feito`
 
-A fazer
-→ Em progresso
-→ Em revisão
-→ Feito
+*Alterações no código devem ser realizadas em uma branch própria e enviadas via **Pull Request (PR)** para revisão.*
 
-Alterações no código devem ser realizadas em uma branch própria e enviadas através de Pull Request para revisão.
+---
 
-## Estrutura do projeto
+## 🚀 Como Rodar o Backend Localmente
 
-```text
-achados-perdidos/
-├── backend/
-├── frontend/
-└── docs/
+### 1. Requisitos
+- **JDK 21** instalado
+- **Git**
 
-
+### 2. Clonar o Repositório
+```bash
+git clone [https://github.com/WilliamSSDev/achados-perdidos.git](https://github.com/WilliamSSDev/achados-perdidos.git)
+cd achados-perdidos
