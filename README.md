@@ -31,14 +31,10 @@ Sistema acadêmico para gerenciamento de objetos perdidos e encontrados.
 
 ## 📋 Funcionalidades
 
-- [ ] Cadastro de usuário
-- [ ] Login
-- [ ] Cadastro de item perdido
-- [ ] Cadastro de item encontrado
-- [ ] Listagem de itens
-- [ ] Pesquisa e filtros
-- [ ] Visualização de detalhes
-- [ ] Marcar item como recuperado
+
+## 📚 Planejamento do desenvolvimento
+
+O roteiro de tarefas por camada, responsável, fase e critérios de aceite está em [PLANO_DE_TAREFAS.md](PLANO_DE_TAREFAS.md).
 
 ---
 
