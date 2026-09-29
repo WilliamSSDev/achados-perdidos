@@ -1,7 +1,6 @@
 package com.academic.lostandfound.domain.model;
 
 import java.time.LocalDateTime;
-import java.util.Locale.Category;
 
 import org.springframework.cglib.core.Local;
 
@@ -29,6 +28,7 @@ public class Item {
     private Long id;
     private String title;
     private String description;
+    @Enumerated(EnumType.STRING)
     private ItemCategory category;
     @Enumerated(EnumType.STRING)
     private ItemStatus status = ItemStatus.PERDIDO;
@@ -38,11 +38,11 @@ public class Item {
     @ManyToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User userId;
-    // @ManyToOne 
-    // @JoinColumn (name = "local_id", referencedColumnName = "id")
-    // private Local localId;
+    @ManyToOne 
+    @JoinColumn (name = "local_id", referencedColumnName = "id")
+    private LocalEntity localId;
     
-    public Item(String title, String description, ItemCategory category, ItemStatus status, LocalDateTime registeredAt, String location, String imageUrl, User userId, Local localId) {
+    public Item(String title, String description, ItemCategory category, ItemStatus status, LocalDateTime registeredAt, String location, String imageUrl, User userId, LocalEntity localId) {
         this.title = title;
         this.description = description;
         this.category = category;

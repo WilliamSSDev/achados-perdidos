@@ -16,7 +16,6 @@ import com.academic.lostandfound.domain.user.AuthenticationDTO;
 import com.academic.lostandfound.domain.user.LoginResponseDTO;
 import com.academic.lostandfound.domain.user.RegisterDTO;
 import com.academic.lostandfound.domain.user.User;
-import com.academic.lostandfound.domain.user.UserRole;
 
 import jakarta.validation.Valid;
 

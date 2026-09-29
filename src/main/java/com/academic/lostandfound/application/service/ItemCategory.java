@@ -7,5 +7,6 @@ public enum ItemCategory {
 
     OTHERS,
     ELECTRONICS,
+    DOCUMENTO
 
 }

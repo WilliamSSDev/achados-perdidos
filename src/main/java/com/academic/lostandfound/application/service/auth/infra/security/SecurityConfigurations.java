@@ -35,8 +35,13 @@ public class SecurityConfigurations {
                     .requestMatchers(HttpMethod.POST, "/items").hasRole("ADMIN")
                     .requestMatchers(HttpMethod.POST, "/auth/login").permitAll()
                     .requestMatchers(HttpMethod.POST, "/auth/register").permitAll()
+                    .requestMatchers(
+                        "/swagger-ui/**",
+                        "/v3/api-docs/**"
+                    ).permitAll()
                     // Every other request requires the user to be authenticated.
                     .anyRequest().authenticated()
+                    
                 )
                 .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
