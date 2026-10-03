@@ -62,9 +62,11 @@ public class AuthController {
         user.setCity(data.city());
 
         if (userRepository.existsByEmail(data.email())) {
+            System.out.println("Email already in use: " + data.email());
             return ResponseEntity.badRequest().body("Email already in use");
         }
         if (userRepository.existsByPhoneString(data.phoneString())) {
+            System.out.println("Phone number already in use: " + data.phoneString());
             return ResponseEntity.badRequest().body("Phone number already in use");
         }
         userRepository.save(user);

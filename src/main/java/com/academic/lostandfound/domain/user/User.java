@@ -34,17 +34,24 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false, unique = true)
     private String login;
+
     @Column(nullable = false)
     private UserRole role;
+
     @Column(nullable = false)
     private String name;
-    @Column(nullable = false)
+
+    @Column(nullable = false, unique = true)
     private String email;
+
     @Column(nullable = false)
     private String password;
-    @Column(nullable = false)
+
+    @Column(nullable = false, unique = true)
     private String phoneString;
+
     @Column(nullable = false)
     private String city;
 
