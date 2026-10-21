@@ -1,10 +1,10 @@
-# 🔍 Achados e Perdidos
+# Achados e Perdidos
 
 Sistema acadêmico para gerenciamento de objetos perdidos e encontrados.
 
 ---
 
-## 👥 Equipe
+## Equipe
 
 - William
 - Enzo
@@ -13,7 +13,7 @@ Sistema acadêmico para gerenciamento de objetos perdidos e encontrados.
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 ### Backend
 - **Java 21**
@@ -29,16 +29,16 @@ Sistema acadêmico para gerenciamento de objetos perdidos e encontrados.
 
 ---
 
-## 📋 Funcionalidades
+## Funcionalidades
 
 
-## 📚 Planejamento do desenvolvimento
+## Planejamento do desenvolvimento
 
 O roteiro de tarefas por camada, responsável, fase e critérios de aceite está em [PLANO_DE_TAREFAS.md](PLANO_DE_TAREFAS.md).
 
 ---
 
-## 📌 Organização do Projeto
+## Organização do Projeto
 
 O desenvolvimento é gerenciado através do **GitHub Projects** e **Issues**.  
 Cada tarefa deve possuir uma Issue correspondente e ser atribuída a pelo menos um integrante.
@@ -50,7 +50,7 @@ Cada tarefa deve possuir uma Issue correspondente e ser atribuída a pelo menos 
 
 ---
 
-## 🚀 Como Rodar o Backend Localmente
+## Como Rodar o Backend Localmente
 
 ### 1. Requisitos
 - **JDK 21** instalado
